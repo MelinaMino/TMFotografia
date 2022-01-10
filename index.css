@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Oxygen';
+    src: url(./Fuentes/Oxygen-Regular.ttf);
+}
+
+body {
+    background-color: #040404;
+    font-family: "Oxygen";
+    font-weight: 200;
+    margin: 0;
+}
+
+header {
+    height: 10%;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 100%;
+    width: 10%;
+    align-items: center;
+    margin: 10px;
+}
+
+.imglogo {
+    height: 100%;
+    weight: 100%;
+    object-fit: cover;
+}
+
+.navbar {
+    display: flex;
+    height: 100%;
+    width: 90%;
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #040404;
+}
+
+a:hover {
+    background-color: #386FA4;
+}
+
+a:visited {
+    color: #040404;
+}
+
+.listanav {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+#inicio {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 9rem;
+    margin-bottom: 2px;
+}
+
+.TM {
+    height: 100%;
+    width: 100%;
+    color: #f3f3f3;
+    text-align: center;
+    background-image: url(./Imagenes/Danzas2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.servicios {
+    color: #f3f3f3;
+    text-decoration: none;
+    text-align: center;
+    border: #386FA4 solid 3px;
+    margin: 50px;
+}
+
+.h3serv {
+    font-size: 2rem;
+}
