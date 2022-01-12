@@ -105,3 +105,30 @@ h1 {
 .h3serv {
     font-size: 2rem;
 }
+
+.Portfolio {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+.h4Port {
+    text-align: center;
+    background-color: #386FA4;
+}
+
+.Galeria {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-auto-rows: 400px;
+    padding: 10px;
+    grid-gap: 20px;
+    box-sizing: border-box;
+}
+
+.FinalDepBidon,
+.Danzas,
+.Rosedal {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
