@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TM Fotografía</title>
     <link rel="stylesheet" href="index.css">
+    <link href="../Iconos/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
 </head>
 
 
@@ -20,7 +21,7 @@
                 <li><a href="#Servicios">Servicios</a></li>
                 <li><a href="#Portfolio">Portfolio</a></li>
                 <li><a href="#Contacto">Contacto</a></li>
-                <li><a href="#Login">Acceso Clientes</a></li>
+                <li><a href="./login.html">Acceso Clientes</a></li>
             </ul>
         </nav>
     </header>
@@ -32,13 +33,15 @@
     </section>
     <section class="Servicios" id="Servicios">
         <h3 class="h3serv">FOTOGRAFÍA INTEGRAL</h3>
+        <p>Nuestro equipo está compuesto por personas apasionadas por la fotografía y el deporte.</p>
+        <p>Trabajamos con equipamiento de última generación y junto con nuestro amor por lo que hacemos, logramos resultados de excelente calidad.</p>
         <p>Somos especialistas en eventos deportivos como:</p>
         <ul>
             <li>Campeonatos de Fútbol, Futsal,Hockey, Voley, etc.</li>
             <li>Muestras de danzas</li>
             <li>Y mucho más</li>
         </ul>
-        <p>Realizamos eventos sociales: 15 años, casamientos y cumpleaños de todo tipo</p>
+        <p>Realizamos eventos sociales: 15 años, casamientos y cumpleaños de todo tipo.</p>
     </section>
 
     <section class="Portfolio" id="Portfolio">
@@ -79,6 +82,42 @@
 
         </div>
     </section>
+    <section class="Contacto" id="Contacto">
+        <H4 class="Escribinos">ESCRIBINOS</H4>
+        <div class="container-form">
+            <form action="method" class="formulario">
+                <div class="webform">
+                    <label for="Nombre">Nombre y Apellido:</label>
+                    <input type="text" name="Nombre" placeholder="Ingresá tu nombre y apellido" id="Nombre" required>
+                </div>
+                <div class="webform">
+                    <label for="Email">Email:</label>
+                    <input type="email" name="Ëmail" placeholder="Ingresá tu email" id="Email" required>
+                </div>
+                <div class="webform">
+                    <label for="Tel"> Teléfono:</label>
+                    <input type="Tel" name="Tel" placeholder="Ingresá tu telefono" id="Tel" required>
+                </div>
+                <div class="webform">
+                    <label for="Mensaje">Mensaje:</label>
+                    <textarea name="Mensaje" id="Mensaje" cols="30" rows="10" placeholder="Ingresá tu mensaje" required></textarea>
+                </div>
+                <div class="webform">
+                    <input type="submit" value="ENVIAR" id="enviar" required>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p class="Copy">© Copyright TM Fotografía. Todos los derechos reservados.</p>
+        <div class="redes-soc">
+            <a href=""><i class="fab fa-facebook"></i>...</a>
+            <a href="."></a>
+            <a href="."></a>
+            <a href="."></a>
+        </div>
+
+    </footer>
 </body>
 
 </html>
