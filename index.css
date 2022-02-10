@@ -362,4 +362,18 @@ footer {
     .checkbox:checked~ul {
         display: inline-block !important;
     }
+    h1 {
+        font-size: 4.3rem;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .contenedor-login {
+        flex-wrap: wrap;
+    }
+    .inicio-sesion,
+    .login-opciones {
+        width: 60%;
+        height: 45%;
+        margin: 0;
+    }
 }
