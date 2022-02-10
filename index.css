@@ -19,8 +19,7 @@ header {
 
 .logo {
     height: 100%;
-    width: 10%;
-    align-items: center;
+    width: 20%;
     margin: 10px;
 }
 
@@ -33,7 +32,7 @@ header {
 .navbar {
     display: flex;
     height: 100%;
-    width: 90%;
+    width: 80%;
     margin: 0;
     padding: 10px;
     cursor: pointer;
@@ -71,7 +70,7 @@ li {
 }
 
 .icon-menu,
-#checkbox {
+.checkbox {
     justify-content: flex-end;
     font-size: 1.5rem;
     font-weight: bold;
@@ -352,12 +351,15 @@ footer {
 }
 
 @media (max-width:780px) {
-    .listanav {
+    .listanav,
+    .logo {
         display: none !important;
     }
     .icon-menu {
-        font-size: 2rem;
+        font-size: 3rem;
         display: inline-block !important;
-        position: ;
+    }
+    .checkbox:checked~ul {
+        display: inline-block !important;
     }
 }
