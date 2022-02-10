@@ -70,6 +70,15 @@ li {
     margin: 15px;
 }
 
+.icon-menu,
+#checkbox {
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #040404;
+    display: none !important;
+}
+
 #inicio {
     height: 100%;
     width: 100%;
@@ -204,20 +213,19 @@ footer {
     font-size: 28px;
     text-decoration: none;
     padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.fab {
-    font-family: 'Font Awesome 5 Brands';
-    font-weight: 400;
-}
-
-.fa-facebook:before {
-    content: "/f09a";
-    background-color: red;
+.icon-redes {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 8px;
 }
 
 
-/* Inicia\o de Sesion, es una pag aparte  */
+/* Inicio de Sesion, es una pag aparte  */
 
 .login {
     display: flex;
@@ -292,4 +300,64 @@ footer {
 #btn-google {
     background-color: #f3f3f3;
     color: #040404;
+}
+
+
+/* Registro, es una pagina aparte */
+
+.registro {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.h3registro {
+    text-align: center;
+    font-size: 2rem;
+    color: #f3f3f3;
+    background-color: #386FA4;
+}
+
+.conteiner-registro {
+    background-color: #386FA4;
+    height: 90%;
+    width: 60%;
+    border: 5px solid #040404;
+    text-align: center;
+    margin: 0 auto 5rem;
+}
+
+.form-registro {
+    font-size: 1.1rem;
+    padding: 5px;
+}
+
+.form-registro input {
+    width: 80%;
+    height: 8%;
+    padding: 10px 0 10px;
+    margin: 8px;
+    border: 2px solid #040404;
+}
+
+#enviar {
+    background-color: #040404;
+    color: #f3f3f3;
+    border-radius: 10px;
+}
+
+#enviar:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+@media (max-width:780px) {
+    .listanav {
+        display: none !important;
+    }
+    .icon-menu {
+        font-size: 2rem;
+        display: inline-block !important;
+        position: ;
+    }
 }
