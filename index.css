@@ -25,7 +25,6 @@ header {
 
 .imglogo {
     height: 100%;
-    weight: 100%;
     object-fit: cover;
 }
 
@@ -350,6 +349,38 @@ footer {
     cursor: pointer;
 }
 
+
+/* ANIMACIONES  */
+
+h2 {
+    overflow: hidden;
+    border-right: .15em solid #386FA4;
+    white-space: nowrap;
+    animation: typing 6s steps(40, end) forwards, blink .8s infinite;
+    width: 0;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: transparent
+    }
+    to {
+        border-color: #386FA4;
+    }
+}
+
+
+/* MEDIA QUERIES  */
+
 @media (max-width:780px) {
     .listanav,
     .logo {
@@ -361,6 +392,7 @@ footer {
     }
     .checkbox:checked~ul {
         display: inline-block !important;
+        position: center;
     }
     h1 {
         font-size: 4.3rem;
